@@ -135,6 +135,7 @@ import org.rstudio.studio.client.workbench.model.Session;
 import org.rstudio.studio.client.workbench.model.WorkbenchListsServerOperations;
 import org.rstudio.studio.client.workbench.model.WorkbenchServerOperations;
 import org.rstudio.studio.client.workbench.prefs.model.PrefsServerOperations;
+import org.rstudio.studio.client.workbench.prefs.views.PythonServerOperations;
 import org.rstudio.studio.client.workbench.snippets.SnippetServerOperations;
 import org.rstudio.studio.client.workbench.ui.PaneManager;
 import org.rstudio.studio.client.workbench.ui.WorkbenchScreen;
@@ -480,6 +481,7 @@ public class RStudioGinModule extends AbstractGinModule
       bind(SecondaryReposServerOperations.class).to(RemoteServer.class);
       bind(ThemeServerOperations.class).to(RemoteServer.class);
       bind(TutorialServerOperations.class).to(RemoteServer.class);
+      bind(PythonServerOperations.class).to(RemoteServer.class);
 
       bind(WorkbenchMainView.class).to(WorkbenchScreen.class);
 

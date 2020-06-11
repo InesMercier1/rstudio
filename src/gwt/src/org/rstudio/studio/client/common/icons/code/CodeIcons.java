@@ -69,4 +69,13 @@ public interface CodeIcons extends ClientBundle
 
    @Source("snippet_2x.png")
    ImageResource snippet2x();
+   
+   @Source("python_2x.png")
+   ImageResource python2x();
+   
+   @Source("virtualenv_2x.png")
+   ImageResource virtualenv2x();
+   
+   @Source("conda_2x.png")
+   ImageResource conda2x();
 }

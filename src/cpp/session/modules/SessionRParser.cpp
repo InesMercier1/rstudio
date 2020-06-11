@@ -1155,9 +1155,6 @@ FunctionInformation getInfoAssociatedWithFunctionAtCursor(
             true,
             true);
    
-   if (error)
-      LOG_ERROR(error);
-   
    return info;
    
 }
